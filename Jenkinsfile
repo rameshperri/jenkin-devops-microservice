@@ -5,4 +5,7 @@ node {
 	stage('Test') {
 		echo "Test"
 	}
+	state('IntegrationTest') {
+		echo "Integration Test"
+	}
 }
